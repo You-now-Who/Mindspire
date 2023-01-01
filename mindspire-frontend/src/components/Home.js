@@ -18,7 +18,7 @@ function Home() {
                 <div className="col-sm-10 col-lg-8">
                   <h5 className="text-primary text-uppercase mb-3 animated slideInDown">Best Online Courses</h5>
                   <h1 className="display-3 text-white animated slideInDown">The Best Online Learning Platform</h1>
-                  <p className="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus eirmod elitr.</p>
+                  <p className="fs-5 text-white mb-4 pb-2">Are you looking to learn something new in the new year? Look no further. Our platform offers a wide range of courses in various subjects, taught by expert instructors.</p>
                   <a href="" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
                   <a href="" className="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
                 </div>
@@ -34,7 +34,7 @@ function Home() {
                 <div className="col-sm-10 col-lg-8">
                   <h5 className="text-primary text-uppercase mb-3 animated slideInDown">Best Online Courses</h5>
                   <h1 className="display-3 text-white animated slideInDown">Get Educated Online From Your Home</h1>
-                  <p className="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus eirmod elitr.</p>
+                  <p className="fs-5 text-white mb-4 pb-2">Are you looking to learn something new in the new year? Look no further. Our platform offers a wide range of courses in various subjects, taught by expert instructors.</p>
                   <a href="" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
                   <a href="" className="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
                 </div>
@@ -62,7 +62,7 @@ function Home() {
               <div className="p-4">
                 <i className="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
                 <h5 className="mb-3">Skilled Instructors</h5>
-                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                <p>We have best team of educators to teach you</p>
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@ function Home() {
               <div className="p-4">
                 <i className="fa fa-3x fa-globe text-primary mb-4"></i>
                 <h5 className="mb-3">Online Classes</h5>
-                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                <p>Get the best classes from top tutors here</p>
               </div>
             </div>
           </div>
@@ -80,7 +80,7 @@ function Home() {
               <div className="p-4">
                 <i className="fa fa-3x fa-home text-primary mb-4"></i>
                 <h5 className="mb-3">Home Projects</h5>
-                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                <p>Build on your own</p>
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@ function Home() {
               <div className="p-4">
                 <i className="fa fa-3x fa-book-open text-primary mb-4"></i>
                 <h5 className="mb-3">Book Library</h5>
-                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                <p>Best resources will be provided</p>
               </div>
             </div>
           </div>
@@ -111,8 +111,8 @@ function Home() {
           <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
             <h6 className="section-title bg-white text-start text-primary pe-3">About Us</h6>
             <h1 className="mb-4">Welcome to Mindspire</h1>
-            <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-            <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+            <p className="mb-4">Our courses are fully online, so you can learn at your own pace and on your own schedule. </p>
+            <p className="mb-4">Plus, with our interactive course materials and forums, you'll have the support of a community of learners just like you.</p>
             <div className="row gy-2 gx-4 mb-4">
               <div className="col-sm-6">
                 <p className="mb-0"><i className="fa fa-arrow-right text-primary me-2"></i>Skilled Instructors</p>
@@ -197,7 +197,7 @@ function Home() {
                     </div> */}
               <div className="text-center p-4">
                 <h5 className="mb-0">Ashish Malla</h5>
-                <small>Front End Developer</small>
+                <small>Meow ninja boy</small>
               </div>
             </div>
           </div>
