@@ -40,7 +40,7 @@ function Skills() {
         <h1 className="mb-5">Your Skills</h1>
       </div>
 
-      <div className="tree">
+       <div className="tree">
         <ul>
           <li>
             <a href="#">
@@ -59,7 +59,7 @@ function Skills() {
                 <a href="#">
                   <div className="mx-auto">
                     <img
-                      src="https://cdn2.iconfinder.com/data/icons/avatar-vol-1-5/512/7_Asian_avatar_businessman_chinese-512.png"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpngGRjYX1ca7qAADU3K6eGLj7ShQE3L2otdzfryl_Y9Ht2QRoQKYQbsXd36XIxMbYOw0&usqp=CAU"
                       alt="Sample avatar"
                     />
                   </div>
@@ -70,7 +70,7 @@ function Skills() {
                     <a href="#">
                       <div className="mx-auto">
                         <img
-                          src="https://i.pinimg.com/originals/d3/69/d9/d369d9056795f553e244da66e8297cca.png"
+                          src="https://cdn-icons-png.flaticon.com/512/919/919826.png"
                           alt="Sample avatar"
                         />
                       </div>
@@ -81,7 +81,7 @@ function Skills() {
                         <a href="#">
                           <div className="mx-auto">
                             <img
-                              src="https://cdn1.iconfinder.com/data/icons/user-avatars-2/300/10-512.png"
+                              src="https://www.datocms-assets.com/48401/1627664298-javascript.png?fit=max&w=900"
                               alt="Sample avatar"
                             />
                           </div>
@@ -94,7 +94,7 @@ function Skills() {
                             <a href="#">
                               <div className="mx-auto">
                                 <img
-                                  src="https://cdn2.iconfinder.com/data/icons/avatar-vol-1-5/512/7_Asian_avatar_businessman_chinese-512.png"
+                                  src="https://shethink.in/wp-content/uploads/2021/07/react.js-img.png"
                                   alt="Sample avatar"
                                 />
                               </div>
@@ -107,7 +107,7 @@ function Skills() {
                             <a href="#">
                               <div className="mx-auto">
                                 <img
-                                  src="https://i.pinimg.com/originals/d3/69/d9/d369d9056795f553e244da66e8297cca.png"
+                                  src="https://www.javatpoint.com/js/nodejs/images/node-js-tutorial.png"
                                   alt="Sample avatar"
                                 />
                               </div>
