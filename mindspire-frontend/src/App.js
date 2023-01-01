@@ -8,11 +8,13 @@ import Footer from './components/Footer';
 import Courses from './components/Courses';
 import Skills from './components/Skills';
 
+let login = false
 
-function App() {
+function App({login}) {
 
-  // const [backendData, setBackendData] = useState([])
-
+  // const [login, setLogin] = useState([false])
+  
+  console.log(login)
   // useEffect(() => {
   //   fetch('/api')
   //     .then(data => {
@@ -25,12 +27,12 @@ function App() {
   return (
     <div className='App'>
       <BrowserRouter>
-      <Navbar />
+      <Navbar login={{login}} />
         <Routes>
         {/* <Route path="/" element={<Navbar />}> */}
           <Route exact path='main' element={<Home />} />
           {/* <Route path='main' element={<Main />} /> */}
-          <Route path='login' element={<LogIn />} />
+          <Route path='login' element={<LogIn login={{login}}/>} />
           <Route path='courses' element={<Courses />} />
           <Route path='skills' element={<Skills />} />
           {/* <Route path="blogs" element={<Blogs />} /> */}
