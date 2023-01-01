@@ -198,7 +198,7 @@ function Skills() {
                         <ul className="inn_line">
                           <li>
                             <a href="#">
-                              <div className="mx-auto">
+                                  <div className="mx-auto">
                                 <img
                                   src="https://dwglogo.com/wp-content/uploads/2018/03/Dart_logo.png"
                                   alt="Sample avatar"
@@ -217,7 +217,7 @@ function Skills() {
                 <a href="#">
                   <div className="mx-auto">
                     <img
-                      src="https://i.pinimg.com/originals/d3/69/d9/d369d9056795f553e244da66e8297cca.png"
+                      src="https://r2j4y6x9.map2.ssl.hwcdn.net/wp-content/uploads/2018/06/Adding-Polish-to-Games.jpg"
                       alt="Sample avatar"
                     />
                   </div>
@@ -228,7 +228,7 @@ function Skills() {
                     <a href="#">
                       <div className="mx-auto">
                         <img
-                          src="https://cdn1.iconfinder.com/data/icons/user-avatars-2/300/10-512.png"
+                          src="https://play-lh.googleusercontent.com/xdVqKpXkeU99o26Ibly4yTzjEK_QiQke_vjGsCNto-cQ-VZ1c4MFXm22PRdOo5PQN7Y=w600-h300-pc0xffffff-pd"
                           alt="Sample avatar"
                         />
                       </div>
@@ -239,7 +239,7 @@ function Skills() {
                         <a href="#">
                           <div className="mx-auto">
                             <img
-                              src="https://cdn2.iconfinder.com/data/icons/avatar-vol-1-5/512/7_Asian_avatar_businessman_chinese-512.png"
+                              src="https://w7.pngwing.com/pngs/911/748/png-transparent-unity-technologies-adobe-flash-computer-software-technology-unity-emblem-electronics-company.png"
                               alt="Sample avatar"
                             />
                           </div>
@@ -250,7 +250,7 @@ function Skills() {
                             <a href="#">
                               <div className="mx-auto">
                                 <img
-                                  src="https://i.pinimg.com/originals/d3/69/d9/d369d9056795f553e244da66e8297cca.png"
+                                  src="https://www.intel.com/content/dam/develop/external/us/en/images/unreal-engine-optmizations-logo-759458.png"
                                   alt="Sample avatar"
                                 />
                               </div>
@@ -263,7 +263,7 @@ function Skills() {
                             <a href="#">
                               <div className="mx-auto">
                                 <img
-                                  src="https://cdn1.iconfinder.com/data/icons/user-avatars-2/300/10-512.png"
+                                  src="https://w7.pngwing.com/pngs/1015/840/png-transparent-godot-game-engine-video-game-3d-computer-graphics-2d-computer-graphics-%D8%A7%D8%AE%D8%AF%D8%AB%D8%BA-game-3d-computer-graphics-text-thumbnail.png"
                                   alt="Sample avatar"
                                 />
                               </div>
@@ -282,7 +282,7 @@ function Skills() {
                 <a href="#">
                   <div className="mx-auto">
                     <img
-                      src="https://cdn2.iconfinder.com/data/icons/avatar-vol-1-5/512/7_Asian_avatar_businessman_chinese-512.png"
+                      src="https://e7.pngegg.com/pngimages/465/779/png-clipart-blue-and-white-c-logo-the-c-programming-language-computer-programming-computer-icons-programmer-blue-angle.png"
                       alt="Sample avatar"
                     />
                   </div>
@@ -293,7 +293,7 @@ function Skills() {
                     <a href="#">
                       <div className="mx-auto">
                         <img
-                          src="https://cdn2.iconfinder.com/data/icons/avatar-vol-1-5/512/7_Asian_avatar_businessman_chinese-512.png"
+                          src="https://download.logo.wine/logo/C%2B%2B/C%2B%2B-Logo.wine.png"
                           alt="Sample avatar"
                         />
                       </div>
@@ -304,7 +304,7 @@ function Skills() {
                         <a href="#">
                           <div className="mx-auto">
                             <img
-                              src="https://i.pinimg.com/originals/d3/69/d9/d369d9056795f553e244da66e8297cca.png"
+                              src="https://e7.pngegg.com/pngimages/856/814/png-clipart-rust-system-programming-language-computer-programming-rusted-miscellaneous-computer-programming-thumbnail.png"
                               alt="Sample avatar"
                             />
                           </div>
@@ -315,7 +315,7 @@ function Skills() {
                             <a href="#">
                               <div className="mx-auto">
                                 <img
-                                  src="https://cdn2.iconfinder.com/data/icons/avatar-vol-1-5/512/7_Asian_avatar_businessman_chinese-512.png"
+                                  src="https://img.stackshare.io/service/1012/scala.png"
                                   alt="Sample avatar"
                                 />
                               </div>
@@ -332,7 +332,7 @@ function Skills() {
                     <a href="#">
                       <div className="mx-auto">
                         <img
-                          src="https://cdn1.iconfinder.com/data/icons/user-avatars-2/300/10-512.png"
+                          src="https://e7.pngegg.com/pngimages/210/105/png-clipart-c-c-computer-programming-javascript-others-miscellaneous-purple.png"
                           alt="Sample avatar"
                         />
                       </div>
@@ -343,7 +343,7 @@ function Skills() {
                         <a href="#">
                           <div className="mx-auto">
                             <img
-                              src="https://cdn2.iconfinder.com/data/icons/avatar-vol-1-5/512/7_Asian_avatar_businessman_chinese-512.png"
+                              src="https://pbs.twimg.com/profile_images/1142154201444823041/O6AczwfV_400x400.png"
                               alt="Sample avatar"
                             />
                           </div>
@@ -354,7 +354,7 @@ function Skills() {
                             <a href="#">
                               <div className="mx-auto">
                                 <img
-                                  src="https://i.pinimg.com/originals/d3/69/d9/d369d9056795f553e244da66e8297cca.png"
+                                  src="https://play-lh.googleusercontent.com/YrY5n418F1joskaaIE1ou8991mmdEaTR66Mr8fHwuRGIkE9ZSnHeiJc-BcUoeU4dhNZl"
                                   alt="Sample avatar"
                                 />
                               </div>
@@ -373,7 +373,7 @@ function Skills() {
                 <a href="#">
                   <div className="mx-auto">
                     <img
-                      src="https://cdn1.iconfinder.com/data/icons/user-avatars-2/300/10-512.png"
+                      src="https://c8.alamy.com/comp/2AK0KF2/artificial-intelligence-ai-vector-logo-artificial-human-brain-human-head-silhouette-abstract-concept-of-cyber-technology-machine-learning-robot-a-2AK0KF2.jpg"
                       alt="Sample avatar"
                     />
                   </div>
@@ -386,7 +386,7 @@ function Skills() {
                     <a href="#">
                       <div className="mx-auto">
                         <img
-                          src="https://cdn2.iconfinder.com/data/icons/avatar-vol-1-5/512/7_Asian_avatar_businessman_chinese-512.png"
+                          src="https://qph.cf2.quoracdn.net/main-qimg-28cadbd02699c25a88e5c78d73c7babc"
                           alt="Sample avatar"
                         />
                       </div>
@@ -397,7 +397,7 @@ function Skills() {
                         <a href="#">
                           <div className="mx-auto">
                             <img
-                              src="https://i.pinimg.com/originals/d3/69/d9/d369d9056795f553e244da66e8297cca.png"
+                              src="https://static.javatpoint.com/tutorial/keras/images/keras.png"
                               alt="Sample avatar"
                             />
                           </div>
@@ -408,7 +408,7 @@ function Skills() {
                             <a href="#">
                               <div className="mx-auto">
                                 <img
-                                  src="https://cdn1.iconfinder.com/data/icons/user-avatars-2/300/10-512.png"
+                                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfphQx3WGVL8dAOuLLeDelClkxaKZ-CgZUHV1O1cqHADd7CueBrFsjRXLyN4rIoxKVzN4&usqp=CAU"
                                   alt="Sample avatar"
                                 />
                               </div>
@@ -421,7 +421,7 @@ function Skills() {
                             <a href="#">
                               <div className="mx-auto">
                                 <img
-                                  src="https://cdn2.iconfinder.com/data/icons/avatar-vol-1-5/512/7_Asian_avatar_businessman_chinese-512.png"
+                                  src="https://ih1.redbubble.net/image.576101068.2529/st,small,507x507-pad,600x600,f8f8f8.u10.jpg"
                                   alt="Sample avatar"
                                 />
                               </div>
