@@ -126,7 +126,7 @@ function Skills() {
                 <a href="#">
                   <div className="mx-auto">
                     <img
-                      src="https://cdn2.iconfinder.com/data/icons/avatar-vol-1-5/512/7_Asian_avatar_businessman_chinese-512.png"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoL3eUPZ3BFg37Z4fybogt70R0NPbt576DkQ&usqp=CAU"
                       alt="Sample avatar"
                     />
                   </div>
@@ -139,7 +139,7 @@ function Skills() {
                     <a href="#">
                       <div className="mx-auto">
                         <img
-                          src="https://cdn2.iconfinder.com/data/icons/avatar-vol-1-5/512/7_Asian_avatar_businessman_chinese-512.png"
+                          src="https://www.developer.com/wp-content/uploads/2021/09/Java-tutorials.jpg"
                           alt="Sample avatar"
                         />
                       </div>
@@ -150,7 +150,7 @@ function Skills() {
                         <a href="#">
                           <div className="mx-auto">
                             <img
-                              src="https://cdn1.iconfinder.com/data/icons/user-avatars-2/300/10-512.png"
+                              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk5fGP3X1ULNYGQ_x8k0gsh8nfBz_XX7UxXg&usqp=CAU"
                               alt="Sample avatar"
                             />
                           </div>
@@ -161,7 +161,7 @@ function Skills() {
                             <a href="#">
                               <div className="mx-auto">
                                 <img
-                                  src="https://cdn2.iconfinder.com/data/icons/avatar-vol-1-5/512/7_Asian_avatar_businessman_chinese-512.png"
+                                  src="https://img.freepik.com/free-icon/swift_318-566115.jpg?w=2000"
                                   alt="Sample avatar"
                                 />
                               </div>
@@ -178,7 +178,7 @@ function Skills() {
                     <a href="#">
                       <div className="mx-auto">
                         <img
-                          src="https://i.pinimg.com/originals/d3/69/d9/d369d9056795f553e244da66e8297cca.png"
+                          src="https://vectorseek.com/wp-content/uploads/2021/12/React-Native-Logo-Vector.jpg"
                           alt="Sample avatar"
                         />
                       </div>
@@ -189,7 +189,7 @@ function Skills() {
                         <a href="#">
                           <div className="mx-auto">
                             <img
-                              src="https://cdn2.iconfinder.com/data/icons/avatar-vol-1-5/512/7_Asian_avatar_businessman_chinese-512.png"
+                              src="https://cdn.dribbble.com/users/1622791/screenshots/11174104/flutter_intro.png"
                               alt="Sample avatar"
                             />
                           </div>
@@ -200,7 +200,7 @@ function Skills() {
                             <a href="#">
                               <div className="mx-auto">
                                 <img
-                                  src="https://cdn1.iconfinder.com/data/icons/user-avatars-2/300/10-512.png"
+                                  src="https://dwglogo.com/wp-content/uploads/2018/03/Dart_logo.png"
                                   alt="Sample avatar"
                                 />
                               </div>
