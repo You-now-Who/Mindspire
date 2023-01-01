@@ -1,3 +1,13 @@
 {
-  "users": []
+  "users": [
+    {
+      "name": "bleh",
+      "fileId": "0.0.49194972"
+    },
+    {
+      "name": "john",
+      "fileId": "0.0.49194980",
+      "fileKey": "302e020100300506032b657004220420ed9eba5dc3391dedd948c240c765495ea3dc6b7e2e0c887d1fb5ed98fb926936"
+    }
+  ]
 }
