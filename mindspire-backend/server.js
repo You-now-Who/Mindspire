@@ -4,11 +4,11 @@ import express from "express";
 import {
   Client,
   PrivateKey,
-  AccountCreateTransaction,
-  AccountBalanceQuery,
+  FileId,
   FileCreateTransaction,
   FileContentsQuery,
   Hbar,
+  FileUpdateTransaction,
 } from "@hashgraph/sdk";
 import { Low } from "lowdb";
 import { JSONFile } from "lowdb/node";
@@ -45,74 +45,52 @@ const client = Client.forTestnet();
 
 client.setOperator(myAccountId, myPrivateKey);
 
-// //Create new keys
-// const newAccountPrivateKey = PrivateKey.generateED25519();
-// const newAccountPublicKey = newAccountPrivateKey.publicKey;
-
-// //Create a new account with 1,000 tinybar starting balance
-// const newAccount = await new AccountCreateTransaction()
-//   .setKey(newAccountPublicKey)
-//   .setInitialBalance(Hbar.fromTinybars(1000))
-//   .execute(client);
-
-// // Get the new account ID
-// const getReceipt = await newAccount.getReceipt(client);
-// const newAccountId = getReceipt.accountId;
-
-// console.log("The new account ID is: " + newAccountId);
-
-// //Verify the account balance
-// const accountBalance = await new AccountBalanceQuery()
-//   .setAccountId(newAccountId)
-//   .execute(client);
-
-// console.log(
-//   "The new account balance is: " +
-//     accountBalance.hbars.toTinybars() +
-//     " tinybar."
-// );
-
-// console.log("Worked!");
-
 app.get("/user", async (req, res) => {
   // Check if user ID is provided
-  const userId = req.body;
+  const userId = req.body.userId;
   if (!userId) {
-    throw new Error("User ID not provided!");
+    res.json({ error: true, message: "User ID not provided!" });
   }
 
-  // Retrieve saved data if the user exists in the database
-  for (let user in db.data.users) {
-    if (user.name === userId) {
-      const query = new FileContentsQuery().setFileId(user.fileId);
+  console.log("User ID: ", userId);
+  await db.read();
 
+  // Retrieve saved data if the user exists in the database
+  for (let user of db.data.users) {
+    if (user.name == userId) {
+      console.log("User found!");
+      const query = new FileContentsQuery().setFileId(user.fileId);
       const contents = await query.execute(client);
 
       console.log(`User data with id ${user.fileId} fetched!`);
       console.log(contents);
+
       res.json(JSON.parse(contents));
       return;
     }
   }
-  throw new Error("A record for the given User ID does not exist!");
+  res.json({ error: true, message: "User does not exist!" });
 });
 
 app.post("/user/add", async (req, res) => {
   // Check if user ID is provided
   const userId = req.body.userId;
   if (!userId) {
-    throw new Error("User ID not provided!");
+    res.json({ error: true, message: "User ID not provided!" });
   }
 
   // Check if user already exists
   if (db.data.users.some((user) => user.name === userId)) {
-    throw new Error("A record for the given User ID already exists!");
+    res.json({
+      error: true,
+      message: "A record for the given User ID already exists!",
+    });
   }
 
   // Check if user data is provided
   const contents = JSON.stringify(req.body.userData);
   if (!contents) {
-    throw new Error("User data not provided!");
+    res.json({ error: true, message: "User data not provided!" });
   }
 
   // Create a new file that will be used to sign the transaction
@@ -136,10 +114,60 @@ app.post("/user/add", async (req, res) => {
   const fileId = receipt.fileId;
 
   // Add the user to the database
-  db.data.users.push({ name: userId, fileId: fileId.toString() });
+  db.data.users.push({
+    name: userId,
+    fileId: fileId.toString(),
+    fileKey: fileKey.toString(),
+  });
   db.write();
 
   console.log(`New File created with ID: ${fileId}`);
+
+  // Return the file ID
+  res.send(fileId.toString());
+});
+
+app.post("/user/update", async (req, res) => {
+  // Check if user ID is provided
+  const userId = req.body.userId;
+  if (!userId) {
+    res.json({ error: true, message: "User ID not provided!" });
+  }
+
+  // Check if user exists
+  const user = db.data.users.filter((user) => user.name === userId);
+
+  if (user.length === 0) {
+    res.json({ error: true, message: "User does not exist!" });
+  }
+
+  const fileId = user[0].fileId;
+
+  // Check if user data is provided
+  const contents = JSON.stringify(req.body.userData);
+  if (!contents) {
+    res.json({ error: true, message: "User data not provided!" });
+  }
+
+  // Create a new file that will be used to sign the transaction
+  const fileKey = PrivateKey.fromString(user[0].fileKey);
+  const filePubKey = fileKey.publicKey;
+
+  console.log(`File length is ${contents.length}`);
+
+  // Create a new file with the user data
+  const transaction = new FileUpdateTransaction({
+    fileId: FileId.fromString(fileId),
+  })
+    .setContents(contents)
+    .freezeWith(client);
+
+  // Sign and submit the transaction
+  const signTx = await transaction.sign(fileKey);
+  const submitTx = await signTx.execute(client);
+  const receipt = await submitTx.getReceipt(client);
+
+  console.log(`File updated with ID: ${fileId}`);
 
   // Return the file ID
   res.send(fileId.toString());
