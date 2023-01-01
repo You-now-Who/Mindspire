@@ -14,8 +14,8 @@ function Navbar() {
             </button>
             <div className="collapse navbar-collapse" id="navbarCollapse">
                 <div className="navbar-nav ms-auto p-4 p-lg-0">
-                    <Link to="#" className="nav-item nav-link ">Home</Link>
-                    <a href="about.html" className="nav-item nav-link">About</a>
+                    <Link to="main" className="nav-item nav-link ">Home</Link>
+                    {/* <a href="about.html" className="nav-item nav-link">About</a> */}
                     <Link to="courses" className="nav-item nav-link">Courses</Link>
                     <Link to="skills" className="nav-item nav-link">Skills</Link>
                     {/* <div className="nav-item dropdown">

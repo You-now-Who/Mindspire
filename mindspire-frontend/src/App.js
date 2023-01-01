@@ -30,7 +30,7 @@ function App({login}) {
       <Navbar login={{login}} />
         <Routes>
         {/* <Route path="/" element={<Navbar />}> */}
-          <Route exact path='main' element={<Home />} />
+          <Route exact path='main' element={<Home/>} />
           {/* <Route path='main' element={<Main />} /> */}
           <Route path='login' element={<LogIn login={{login}}/>} />
           <Route path='courses' element={<Courses />} />

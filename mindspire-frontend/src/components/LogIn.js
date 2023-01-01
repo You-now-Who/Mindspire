@@ -61,7 +61,7 @@ function LogIn() {
                                 </div>
 
                                 <div className="text-center text-lg-start mt-4 pt-2">
-                                    <Link to="main" type="button" className="btn btn-primary btn-lg"
+                                    <Link to={{pathname: "/main", query: {login: true}}}  type="button" className="btn btn-primary btn-lg"
                                         style={{"padding-left": "2.5rem", "padding-right": "2.5rem"}}>Login</Link>
                                     {/* <p className="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="#!"
                                         className="link-danger">Register</a></p> */}
