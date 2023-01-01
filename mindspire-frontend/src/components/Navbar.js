@@ -25,7 +25,7 @@ function Navbar() {
                     </div>
                     <a href="contact.html" className="nav-item nav-link">Contact</a> */}
                 </div>
-                <a href="" className="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i className="fa fa-arrow-right ms-3"></i></a>
+                <Link to="login" className="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i className="fa fa-arrow-right ms-3"></i></Link>
             </div>
         </nav>
   )

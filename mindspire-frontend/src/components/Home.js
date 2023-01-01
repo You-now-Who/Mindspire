@@ -2,10 +2,10 @@ import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
-function Layout() {
+function Home() {
   return (
     <div className="Layout">
-    <Navbar />
+    {/* <Navbar /> */}
 
     {/* CAROUSEL */}
     <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
@@ -205,10 +205,10 @@ function Layout() {
       </div>
     </div>
 
-    <Footer />
+    {/* <Footer /> */}
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   </div>
   )
 }
 
-export default Layout
+export default Home

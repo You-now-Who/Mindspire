@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from 'react'
-import Layout from './components/Layout'
-import { Link, BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './components/Home'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from './components/Main';
+import LogIn from './components/LogIn';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Courses from './components/Courses';
 
 
 function App() {
@@ -20,15 +24,19 @@ function App() {
   return (
     <div className='App'>
       <BrowserRouter>
+      <Navbar />
         <Routes>
-        {/* <Route exact path="/" element={<Layout />}> */}
-          <Route exact path='/' element={<Layout />} />
-          <Route path='/main' element={<Main />} />
+        {/* <Route path="/" element={<Navbar />}> */}
+          <Route exact path='/' element={<Home />} />
+          <Route path='main' element={<Main />} />
+          <Route path='login' element={<LogIn />} />
+          <Route path='courses' element={<Courses />} />
           {/* <Route path="blogs" element={<Blogs />} /> */}
           {/* <Route path="contact" element={<Contact />} /> */}
           {/* <Route path="*" element={<NoPage />} /> */}
         {/* </Route> */}
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
 
