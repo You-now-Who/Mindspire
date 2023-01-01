@@ -6,6 +6,7 @@ import LogIn from './components/LogIn';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Courses from './components/Courses';
+import Skills from './components/Skills';
 
 
 function App() {
@@ -27,10 +28,11 @@ function App() {
       <Navbar />
         <Routes>
         {/* <Route path="/" element={<Navbar />}> */}
-          <Route exact path='/' element={<Home />} />
-          <Route path='main' element={<Main />} />
+          <Route exact path='main' element={<Home />} />
+          {/* <Route path='main' element={<Main />} /> */}
           <Route path='login' element={<LogIn />} />
           <Route path='courses' element={<Courses />} />
+          <Route path='skills' element={<Skills />} />
           {/* <Route path="blogs" element={<Blogs />} /> */}
           {/* <Route path="contact" element={<Contact />} /> */}
           {/* <Route path="*" element={<NoPage />} /> */}
