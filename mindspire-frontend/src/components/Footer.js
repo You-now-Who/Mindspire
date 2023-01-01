@@ -55,7 +55,6 @@ function Footer() {
                 <div className="row">
                     <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
                         &copy; <a className="border-bottom" href="#">Mindspire</a>, All Right Reserved.
-                        Designed By <a className="border-bottom" href="https://htmlcodex.com">HTML Codex</a><br/><br/>
                         Distributed By <a className="border-bottom" href="https://themewagon.com">ThemeWagon</a>
                     </div>
                     <div className="col-md-6 text-center text-md-end">
